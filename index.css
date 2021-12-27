@@ -51,6 +51,7 @@
     padding: 10px 0px;
     text-align: justify;
     color: #545454;
+    width: 100%;
 }
 .why_udchalo_total_div{
     padding-top: 50px;
@@ -1130,6 +1131,13 @@ justify-content: space-around; */
     .carousal_hine_small_screen {
         /* display: none; */
     }
+    .koh-faq-question{
+        font-family: Helvetica Neue LT Pro Roman !important;
+        font-size: 10px !important;
+        color: #000 !important;
+        font-weight: 700 !important;
+        display: inline-block;
+      }
 
 
 }
@@ -1687,6 +1695,44 @@ background-size: contain; */
 .big_screen{
     margin-left: 90px;
 }
+.display_small_screen_share_image{
+    display: none;
+}
+.why_franchise_small_screen_img{
+    display: none;
+}
+@media(max-width:990px){
+    .big_screen{
+        margin-left: 50px;
+    }
+    .why_udchalo_img{
+        display: none;
+    }
+    .share_now{
+        margin-bottom: 30px;
+    }
+    .display_small_screen_share_image{
+        display: block;
+        /* width: 80%; */
+        /* height: 200px; */
+        /* width: 330px !important; */
+        /* transform: scale(100%,50%); */
+        /* margin: auto; */
+        width: 100%;
+    }
+    .why_udchalo_img_second{
+        display:none ;
+    }
+    .why_franchise_small_screen_img{
+        display:block;
+        width: 100%;
+    }
+}
+.sa{
+    position: relative;
+    top: -60px;
+    
+}
 
 #read_more{
     color: #348D59;
@@ -1793,7 +1839,7 @@ background-size: contain; */
         }
         .sa{
             position: relative;
-            top: -60px;
+            top: -80px;
             width: 90%;
             
         }
