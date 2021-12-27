@@ -2,6 +2,9 @@
     background-color: #F3FFF8;
     padding: 50px 0px;
 }
+.width_small_join_second_sec{
+    /* width: 100%; */
+}
 .hero_img{
     width: 100%;
 }
@@ -28,6 +31,8 @@
     font-weight: 500;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 .get_started{
     font-weight: 500;
@@ -42,8 +47,10 @@
     padding: 50px 0px;
 }
 .why_udchalo_para{
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 0px;
+    text-align: justify;
+    color: #545454;
 }
 .why_udchalo_total_div{
     padding-top: 50px;
@@ -80,6 +87,14 @@
     border-radius: 5px;
     border: 1px solid lightgray;
     font-size: 12px;
+    cursor: pointer;
+}
+.assistant_join_button{
+    cursor: pointer;
+}
+.join_us_hero:hover{
+    color: white;
+    text-decoration: none;
 }
 .share_now a{
     color: white;
@@ -108,7 +123,8 @@
     text-align: center;
 }
 .earning_img_div_row img{
-    width: 50%;
+    width: 75%;
+    margin-top: 5px;
 }
 .investment_heading_black{
     font-size: 30px;
@@ -173,7 +189,7 @@
     background-color: #F5FFF9;
 }
 .table_benefits{
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 .benefits_check_img{
@@ -186,11 +202,15 @@
     padding-top: 30px;
 }
 .table_benefits_more_width{
-    width: 60%;
+    width: 100%;
     margin: auto;
+    margin-left: 50px;
 }
 .table_benefits_more_width tr td{
     padding-top: 30px;
+}
+.benefits_data_assistant{
+    width: 60%;
 }
 .assistant_heading_div{
     font-weight: 500;
@@ -204,8 +224,10 @@
     background-color: #DFF2F8;
 }
 .benefits_check_img_assistant img{
-    width: 100%;
-    padding-right: 20px;
+    width: 60%;
+    padding-right: 0px;
+    display: block;
+    margin: auto;
 }
 .assistant_join_button{
     padding: 8px 0px;
@@ -240,7 +262,7 @@
     font-size: 20px;
     transition: 0.4s;
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 500;
   }
   
   .active, .accordion:hover {
@@ -277,7 +299,13 @@
     margin-left: 5px;
     transform: rotate(90deg);
   }
-  
+  .accordion:hover{
+      background-color: rgb(245, 244, 244);
+  }
+  .accordion:focus{
+      border: none;
+      outline: none;
+  }
   .activea:after {
     /* content: "\003C"; */
     
@@ -290,6 +318,7 @@
   }
   .down_arrow_hide{
       /* display: none !important; */
+      display: none;
   }
   .panel{
       display: none;
@@ -315,8 +344,9 @@
     padding: 0px;
 }
 
-.hero_img img {
+.hero_img {
     width: 100%;
+    /* height: 300px !important; */
 }
 
 .order_heading {
@@ -1121,7 +1151,11 @@ justify-content: space-around; */
 .facilty_edu {
     font-weight: 500;
 }
-
+@media(max-width:1214px){
+    .join_us_agent{
+        padding: 15px 65px !important;
+    }
+}
 @media(max-width:766px) {
     * {
         font-size: 14px !important;
@@ -1638,6 +1672,7 @@ background-size: contain; */
 
 .join_us_hero_hide{
     display: none;
+    cursor: pointer;
 }
 .india_map{
     width: 100%;
@@ -1739,7 +1774,8 @@ background-size: contain; */
         }
         .table_benefits_more_width {
             width: 100%;
-            margin: auto;
+            margin: auto;            
+            margin-left: 0px !important;
         }
         .benefits_data_assistant{
             font-size: 20px;
@@ -1758,9 +1794,88 @@ background-size: contain; */
         .sa{
             position: relative;
             top: -60px;
-            width: 100%;
+            width: 90%;
+            
+        }
+        .big_screen{
+            margin-left: 20px !important;
         }
     }
     .hide_tr{
         display: none;
     }
+    @media(max-width:415px){
+        .join_us_agent{
+            text-decoration: none;
+    background-color: #1E54B0;
+    color: white;
+    padding: 15px 10px !important;
+    text-transform: uppercase;
+    width: 60%;
+    margin: auto;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+        }
+        .big_screen{
+            margin-left: 10px !important;
+        }
+    }
+   @media(max-width:999px) {
+       .table_benefits_more_width{
+           margin-left: 0px;
+       }
+       .benefits_check_img_assistant img{
+        width: 60%;
+        padding-right: 5px !important;
+       
+    }
+    .container{
+        padding-left: 0px;
+    }
+   }
+
+
+
+
+
+
+
+
+   .koh-faqs-page-title {
+    font-family: Nexa W01 Heavy;
+    font-size: 30px;
+    color: #04202E;
+    font-weight: 700;
+  }
+  
+  .koh-faq-question-span {
+    font-family: Helvetica Neue LT Pro Roman !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: 700 !important;
+    display: inline-block;
+  }
+  
+  .koh-faq-answer {
+    font-family: Helvetica Neue LT Pro Roman;
+    color: #000;
+    font-weight: 400;
+    display: none;
+  }
+  
+  .icon {
+    font-size: 10px;
+    padding-right: 5px;
+  }
+  
+  .fa-chevron-down {
+    transition: transform .2s;
+  }
+  
+  .fa-chevron-down.active {
+    transform: rotateZ(180deg);
+    background-color: rgb(245, 244, 244);
+  }
