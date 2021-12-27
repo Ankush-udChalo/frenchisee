@@ -1166,9 +1166,22 @@ justify-content: space-around; */
 }
 @media(max-width:766px) {
     * {
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
-
+    .bold_heading{
+        font-size: 20px !important;
+    }
+    .get_started{
+        font-size: 18px !important;
+        margin-bottom: 5px;
+    }
+    .why_udchalo_heading{
+        font-size: 20px !important;
+    }
+    .why_udchalo_para{
+        font-size: 14px !important;
+        text-align-last: center;
+    }
     .button_register {
         width: 280px;
         /* height: 75px;  */
@@ -1701,6 +1714,10 @@ background-size: contain; */
 .why_franchise_small_screen_img{
     display: none;
 }
+.why_udchalo_img_second_aa{
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
 @media(max-width:990px){
     .big_screen{
         margin-left: 50px;
@@ -1727,6 +1744,10 @@ background-size: contain; */
         display:block;
         width: 100%;
     }
+   .why_udchalo_img_second_aa{
+       width: 100%;
+       margin-bottom: 10px;
+   }
 }
 .sa{
     position: relative;
