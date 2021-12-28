@@ -44,7 +44,7 @@
 }
 .get_started_total_div{
     text-align: center;
-    padding: 50px 0px;
+    padding: 25px 0px;
 }
 .why_udchalo_para{
     font-size: 16px;
@@ -54,7 +54,7 @@
     width: 100%;
 }
 .why_udchalo_total_div{
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 0px;
     
 }
@@ -82,13 +82,14 @@
     background-color: #1E54B0;
     color: white;
     font-weight: 500;
-    padding:10px 50px;
+    /* padding:10px 50px; */
     margin-top: 20px;
     display: inline-block;
     border-radius: 5px;
     border: 1px solid lightgray;
     font-size: 12px;
     cursor: pointer;
+    height: 42px;
 }
 .assistant_join_button{
     cursor: pointer;
@@ -104,7 +105,7 @@
     margin-right: 10px;
 }
 .why_fren_section{
-    padding: 50px 0px;
+    padding: 25px 0px;
 }
 .why_udchalo_img_second{
     width: 100% !important;
@@ -138,7 +139,7 @@
 }
 .investment_sec_total{
     text-align: center;
-    padding: 50px 0px;
+    padding: 25px 0px;
     background-color: #DFF2F8;
 }
 .card_body{
@@ -181,12 +182,13 @@
     font-size: 20px;
     width: 60%;
     margin: auto;
+    color: #000;
 }
 .benifits_total_div{
     text-align: center;
 }
 .benefits_total_section{
-    padding: 50px 0px;
+    padding: 25px 0px;
     background-color: #F5FFF9;
 }
 .table_benefits{
@@ -221,7 +223,7 @@
     font-size: 30px;
 }
 .assistant_total_section{
-    padding: 50px 0px;
+    padding: 25px 0px;
     background-color: #DFF2F8;
 }
 .benefits_check_img_assistant img{
@@ -315,7 +317,7 @@
       font-size: 30px;
   }
   .section_total_faqs{
-      padding: 50px 0px;
+      padding: 25px 0px;
   }
   .down_arrow_hide{
       /* display: none !important; */
@@ -1169,18 +1171,81 @@ justify-content: space-around; */
         font-size: 16px !important;
     }
     .bold_heading{
-        font-size: 20px !important;
+        font-size: 18px !important;
+        padding-bottom: 10px !important;
     }
     .get_started{
         font-size: 18px !important;
         margin-bottom: 5px;
     }
+    .get_started_para{
+        color: #545454;
+        font-size: 14px !important;
+    }
     .why_udchalo_heading{
         font-size: 20px !important;
+        padding-bottom: 15px;
+    }
+    .faq_heading{
+        font-size: 18px !important;
+    }
+    .assistant_join_button{
+        /* padding: 8px 0px; */
+        width:90%;
+        background-color: #1E54B0;
+        color: white;
+        text-align: center;
+        margin: auto;
+        display: block;
+        border: none;
+        margin-top: 30px;
+        font-size: 12px !important;
+        height: 42px;
+    }
+    .card_desc{
+        padding: 40px 30px;
+        font-weight: 500;
+        font-size: 14px !important;
+    }
+    .benifits_heading{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .assistant_heading_div{
+        font-weight: 500;
+        text-align: center;
+        font-size: 18px !important;
+    }
+    .card_circle{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 24px !important;
     }
     .why_udchalo_para{
         font-size: 14px !important;
-        text-align-last: center;
+        text-align: center;
+    }
+    .investment_heading_black{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .earning_opp_heading{
+        font-size: 18px !important;
+        color: white;
+    }
+    .earning_opp_desc{
+        color: white;
+        font-size: 14px !important;
     }
     .button_register {
         width: 280px;
@@ -1777,7 +1842,7 @@ background-size: contain; */
             width: 100%;
         }
         .hero_belo_para {
-            font-weight: 500;
+            font-weight: 400;
             font-size: 25px;
             width: 100%;
             padding-bottom: 15px;
@@ -1785,12 +1850,15 @@ background-size: contain; */
         }
         .join_us_hero{
             display: none;
+            font-size: 12px !important;
+            height: 42px !important;
+            padding:0px !important;
         }
         .join_us_hero_hide{
             text-decoration: none;
             background-color: #1E54B0;
             color: white;
-            padding: 15px 100px;
+            /* padding: 15px 100px; */
             text-transform: uppercase;
             font-weight: 500;
             border-radius: 5px;
@@ -1800,6 +1868,8 @@ background-size: contain; */
             width: 100%;
             margin-bottom: 20px;
             margin-top: 20px;
+            font-size: 12px;
+            height: 42px !important;
         }
         .hero_section {
             background-color: #F3FFF8;
@@ -1829,9 +1899,10 @@ background-size: contain; */
             font-size: 20px;
             width: 100%;
             margin: auto;
+            padding-bottom: 0px !important;
         }
         .benifits_desc {
-            font-size: 20px;
+            font-size: 14px !important;
             width: 100%;
             margin: auto;
         }
@@ -1853,14 +1924,15 @@ background-size: contain; */
         }
         .india_map{
             display: none;
+            width: 100%;
         }
         .india_map_small_screen{
             display: block;
-            width: 100%;
+            width: 100% !important;
         }
         .sa{
             position: relative;
-            top: -80px;
+            top: -40px;
             width: 90%;
             
         }
@@ -1876,7 +1948,7 @@ background-size: contain; */
             text-decoration: none;
     background-color: #1E54B0;
     color: white;
-    padding: 15px 10px !important;
+    padding: 11px 10px !important;
     text-transform: uppercase;
     width: 60%;
     margin: auto;
